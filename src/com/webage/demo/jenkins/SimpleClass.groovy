@@ -18,7 +18,7 @@ class SimpleClass implements Serializable {
  }
 
  def sayHello(def name) {
-  return "Hi, ${name}";
+  return "Hi, ${name}, from the shared lib in Git";
  }
 
  def getDateTime() {

@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat
  *
  * @author trasukg
  */
-class SimpleClass {
+class SimpleClass implements Serializable {
  int square(int a) {
   return a * a; 
  }
